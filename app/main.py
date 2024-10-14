@@ -194,20 +194,19 @@ try:
     bus_stop_code_A = os.getenv('BUS_STOP_CODE_A')
     bus_stop_code_B = os.getenv('BUS_STOP_CODE_B')
 
-    #bus_stop_code_A = '53241'  # Downstairs
-    #bus_stop_code_B = '53249'  # Opposite
     
     while True:
         #Display Bus Arrival
         bus_info_A = get_bus_arrival(api_key, bus_stop_code_A)
         bus_info_B = get_bus_arrival(api_key, bus_stop_code_B)
         display_bus_arrivals(epd, draw, font48, bus_info_A, bus_info_B)
-        time.sleep(15)  # Refresh every 1 minute
+        time.sleep(30)  # Refresh every 30 seconds
 
         # Display train disruptions
-        train_info = get_train_disruptions()
-        display_train_disruption(epd, draw, font48, train_info)
-        time.sleep(15)  # Display train info for 30 seconds
+        # Uncomment to display train info
+        # train_info = get_train_disruptions()
+        # display_train_disruption(epd, draw, font48, train_info)
+        # time.sleep(15)  # Display train info for 30 seconds
 
 except IOError as e:
     logging.error(e)
