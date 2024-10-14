@@ -1,5 +1,5 @@
 # E-Ink Bus Picture Frame
-<iframe src="https://drive.google.com/file/d/1zQvAToLZ3Cnxs84Y6a4Uk20vn-1cJqk0/preview" width="640" height="480" allow="autoplay"></iframe>
+![Bus Timing E-ink Display](https://drive.usercontent.google.com/download?id=1zQvAToLZ3Cnxs84Y6a4Uk20vn-1cJqk0)
 
 Living in Singapore, I'm truly blessed having access to public transportation that is cheap, 'reliable' and consistent. As much as most of us would complain about it everyday, it is a constant necessity that most of us take for granted. 
 
